@@ -6,7 +6,7 @@ fi
 assetfinder --subs-only $domain > $domain/output.txt
 amass enum -silent -passive -norecursive -noalts -d $domain >>$domain/output_subs.txt
 sublist3r -d $domain -o$domain/output_subs.txt
-findomain -q -t $domain >> $domain/output_subs.txt
+./findomain-linux -q -t $domain >> $domain/output_subs.txt
 subfinder -silent -d $domain -o $domain/output_subs.txt
 ~/subbrute/./subbrute.py $domain >> $domain/output_subs.txt
 cat $domain/output.txt  | sort -u | wc  -l
