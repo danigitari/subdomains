@@ -10,3 +10,4 @@ replace safaricom with the domain u need
 - install pup from https://github.com/ericchiang/pup
 other tools turbolist3r , fierce 
 subbrute makes the whole thing slow want faster results u can comment it out in the code
+creates a new directory in your machine and an output_subs.txt file with all the subdomains
